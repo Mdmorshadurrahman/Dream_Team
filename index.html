@@ -9,18 +9,73 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href=".//media/images/football.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b6d9270fd8.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <header class="w-100">
-        HISHIS
+    <header class="w-100 pt-40">
+        <div class="text-center w-5/12 mx-auto font-mono">
+            <h1
+                class="hover:from-red-500 hover:cursor-pointer bg-gradient-to-bl from-cyan-500 to-white-500 rounded-full text-black-700 font-bold text-5xl">
+                <span class="hover:text-white">Build</span>
+                <span class="hover:text-white"> Your</span> <span class="hover:text-white"> Dream</span>
+                <span class="hover:text-white"> Team</span>
+            </h1>
+            <div class="flex justify-evenly my-2 items-center">
+                <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
+                <img src=".//media/icon/football_icon.png"
+                    class="hover:h-14 hover:w-18 hover:cursor-pointer hover:bg-gradient-to-bl hover:from-cyan-500 hover:to-white mx-auto p-1 text-red-500 h-9 w-14 bg-red-400 rounded-full "
+                    alt="">
+                <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
+            </div>
+            <p class="text-white font-normal text-md">Choose from the Bestest within given Budget and build
+                your
+                Dream Team
+                where You can buy maximum <b>3</b>
+                Forward, <b>4</b> Midfielder, <b>5</b> Defender, <b>1</b> Goal Keeper & <b>1</b> Manager</p>
+        </div>
     </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
+    <div
+        class="border-2 border-white text-center bg-cyan-500 font-semibold text-3xl text-white w-2/12 mx-auto my-10 rounded-lg hover:text-cyan-300 hover:bg-black hover:text-white hover:cursor-pointer">
+        <p>Forward Pool</p>
+    </div>
+    <section class="card">
+        <!-- card section starts -->
+        <div class="grid grid-cols-4 gap-6 bg-blue-500 px-16">
+            <!-- player card -->
+            <div class="col-span-3 grid grid-cols-3 gap-3">
+                <div class="bg-yellow-500 h-3/4">
+                    <img src=".//media/images/Messi.jpg" alt="">
+                    <br>
+                    <p class="text-white text-center">Leonel Messi</p>
+                    <p><span>46</span> Goals || <span>42</span> Assist</p><br>
+                    <div class="text-center">
+                        <button class="text-center text-black bg-cyan-500">Hire</button>
+                    </div>
+                </div>
+                <div class="h-3/4">
+                    <img src=".//media/images/Neymar.jpg" alt="">
+                    <p>Neymar</p>
+                </div>
+                <div class="bg-green-500 h-3/4">
+                    <img src="./media/images/Benzema.jpg" alt="">
+                    <p>Karim Benzema</p>
+                </div>
+                <div class="h-3/4">
+                    <img src=".//media/images/De bruyne.jpg" alt="">
+                    <p class="text-black text-center">Kevin De Bruyne</p>
+                </div>
+
+            </div>
+            <!-- player card ends -->
+            <!-- player dashboard -->
+            <div class="col-span-1">
+                <p class="bg-red-500 text-center">Dashboard</p>
+            </div>
+            <!-- player dashboard ends -->
+        </div>
+        <!-- card section ends -->
+    </section>
 </body>
 
 </html>
