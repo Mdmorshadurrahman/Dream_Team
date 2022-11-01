@@ -6,8 +6,8 @@ html {
 }
 
 
-header {
-    height: 60vh;
+.header-image {
+    /* height: 60vh; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: top;

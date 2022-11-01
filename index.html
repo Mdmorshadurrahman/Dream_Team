@@ -13,154 +13,175 @@
 </head>
 
 <body>
-    <header class="w-100 pt-40">
-        <div class="text-center w-5/12 mx-auto font-mono">
-            <h1
-                class="hover:from-red-500 hover:cursor-pointer bg-gradient-to-bl from-cyan-500 to-white-500 rounded-full text-black-700 font-bold text-5xl">
-                <span class="hover:text-white">Build</span>
-                <span class="hover:text-white"> Your</span> <span class="hover:text-white"> Dream</span>
-                <span class="hover:text-white"> Team</span>
-            </h1>
-            <div class="flex justify-evenly my-2 items-center">
-                <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
-                <img src=".//media/icon/football_icon.png"
-                    class="hover:h-14 hover:w-18 hover:cursor-pointer hover:bg-gradient-to-bl hover:from-cyan-500 hover:to-white mx-auto p-1 text-red-500 h-9 w-14 bg-red-400 rounded-full "
-                    alt="">
-                <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
+    <header>
+        <div class=" header-image h-80 p-28">
+            <div class="text-center h-full mx-auto w-8/12 font-mono">
+                <div class="w-9/12 mx-auto">
+                    <h1
+                        class=" px-2 py-2 hover:from-red-500 hover:cursor-pointer bg-gradient-to-bl from-cyan-500 to-white-500 rounded-full text-black-700 font-bold text-5xl">
+                        <span class="hover:text-white">Build</span>
+                        <span class="hover:text-white"> Your</span> <span class="hover:text-white"> Dream</span>
+                        <span class="hover:text-white"> Team</span>
+                    </h1>
+                </div>
+                <div class="flex justify-evenly my-2 w-9/12 mx-auto items-center">
+                    <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
+                    <img src=".//media/icon/football_icon.png"
+                        class="hover:h-14 hover:w-18 hover:cursor-pointer hover:bg-gradient-to-bl hover:from-cyan-500 hover:to-white mx-auto p-1 text-red-500 h-9 w-14 bg-red-400 rounded-full "
+                        alt="">
+                    <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
+                </div>
+                <div class="w-9/12 mx-auto">
+                    <p class="text-white font-normal text-md">Choose from the Bestest within given Budget and build
+                        your
+                        Dream Team
+                        where You can buy maximum <b>3</b>
+                        Forward, <b>4</b> Midfielder, <b>5</b> Defender, <b>1</b> Goal Keeper & <b>1</b> Manager</p>
+                </div>
             </div>
-            <p class="text-white font-normal text-md">Choose from the Bestest within given Budget and build
-                your
-                Dream Team
-                where You can buy maximum <b>3</b>
-                Forward, <b>4</b> Midfielder, <b>5</b> Defender, <b>1</b> Goal Keeper & <b>1</b> Manager</p>
         </div>
     </header>
     <div
-        class="border-2 border-white text-center bg-cyan-500 font-semibold text-3xl text-white w-2/12 mx-auto my-10 rounded-lg hover:text-cyan-300 hover:bg-black hover:text-white hover:cursor-pointer">
+        class="border-2 border-white text-center bg-black text-cyan-300 font-semibold text-3xl text-white w-2/12 mx-auto my-10 rounded-lg">
         <p>Forward Pool</p>
     </div>
     <section class="card mb-32">
         <!-- card section starts -->
         <div class="grid grid-cols-4 gap-6 px-16">
             <!-- player card -->
-            <div class="col-span-3 grid grid-cols-3 gap-3 text-center">
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+            <div class="col-span-3 grid grid-cols-3 gap-3 text-center ">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Messi.jpg" alt="">
-                    <p class="text-white font-bold text-2xl mt-2">Leonel Messi</p>
-                    <p class="text-gray-500"><span>46</span> Goals || <span>42</span> Assist</p>
+                    <p class="text-white font-bold text-2xl mt-2" id="name-id">Leonel Messi</p>
+                    <p class="text-gray-500 "><span>46</span> Goals || <span>42</span>
+                        Assist
+                    </p>
+                    <p class="text-gray-500">Position: <span class="text-white" id="position-id">RWF</span></p>
                     <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
-                            €<span class="font-bold">1000</span></button>
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg"
+                            id="btn-hire">Hire-
+                            €<span class="font-bold" id="price-id">1000</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Neymar.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Neymar Jr.</p>
                     <p class="text-gray-500"><span>46</span> Goals || <span>42</span> Assist</p>
+                    <p class="text-gray-500">Position: <span class="text-white">LWF</span></p>
                     <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">900</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src="./media/images/Benzema.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Karim Benzema</p>
                     <p class="text-gray-500"><span>46</span> Goals || <span>42</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">CF</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">900</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
-                    <img src=".//media/images/De bruyne.jpg" alt="">
-                    <p class="text-white font-bold text-2xl mt-2">Kevin De Bruyne</p>
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
+                    <img src=".//media/images/Harry_Kane.jpg" alt="">
+                    <p class="text-white font-bold text-2xl mt-2">Harry Kane</p>
                     <p class="text-gray-500"><span>46</span> Goals || <span>42</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">860</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Ronaldo.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Cristiano Ronaldo</p>
                     <p class="text-gray-500"><span>27</span> Goals || <span>31</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">960</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Salah.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Mohammad Salah</p>
                     <p class="text-gray-500"><span>37</span> Goals || <span>32</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">RW</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">890</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Lewandoski.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Robert Lewandoski</p>
                     <p class="text-gray-500"><span>35</span> Goals || <span>32</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">930</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Lautaro.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Lautaro Martinez</p>
                     <p class="text-gray-500"><span>26</span> Goals || <span>28</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">820</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Halland.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Erling Halland</p>
                     <p class="text-gray-500"><span>36</span> Goals || <span>38</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">880</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Grealish.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Jack Grealish</p>
                     <p class="text-gray-500"><span>31</span> Goals || <span>36</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">LW</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">850</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/Dybala.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Paulo Dybala</p>
                     <p class="text-gray-500"><span>25</span> Goals || <span>29</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">CF</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">850</span></button>
                     </div>
                 </div>
-                <div class=" h-10/12 border-2 bg-black border-gray-700 rounded-md pb-3">
+                <div class="border-2 bg-black border-gray-700 rounded-md pb-3">
                     <img src=".//media/images/ibrahimovich.jpg" alt="">
                     <p class="text-white font-bold text-2xl mt-2">Zlatan Ibrahimovich</p>
                     <p class="text-gray-500"><span>34</span> Goals || <span>33</span> Assist</p>
-                    <div class="text-center mb-3">
+                    <p class="text-gray-500">Position: <span class="text-white">ST</span></p>
+                    <div class="text-center">
                         <button
-                            class="text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 w-10/12 py-1 mt-2 rounded-lg">Hire-
+                            class="w-9/12 mb-10 text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 py-1 mt-2 rounded-lg">Hire-
                             €<span class="font-bold">890</span></button>
                     </div>
                 </div>
@@ -168,8 +189,77 @@
             </div>
             <!-- player card ends -->
             <!-- player dashboard -->
-            <div class="col-span-1">
-                <p class="bg-red-500 text-center">Dashboard</p>
+            <div class="col-span-1 grid grid-rows-4 gap-5">
+                <div class="border-2 bg-black row-end-1 border-gray-700 rounded-md pb-9">
+                    <p class="text-2xl mt-5 text-center text-white font-bold">Selection (Max. 4)</p>
+                    <hr class="w-10/12 mx-auto mt-5">
+                    <ol class="mt-14 pl-5 list-inside list-decimal text-xl font-semibold text-white">
+                        <li class="my-8"><span class="pl-5 text-cyan-400 font-bold" id="name-list"></span> <span
+                                id="position-list" class="text-cyan-400 font-bold"></span></li>
+                        <li class="my-8"></li>
+                        <li class="my-8"></li>
+                        <li></li>
+                    </ol>
+                </div>
+                <div class="border-2 row-start-1 row-span-2 bg-black border-gray-700 rounded-md pb-10">
+                    <p class="text-2xl mt-5 text-center text-white font-bold">Virtual Wallet</p>
+                    <hr class="w-10/12 mx-auto mt-5">
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Balance: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            <span id="balance-id">10000</span><span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Forward: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            <span id="forward-id">0</span>
+                            <span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Midfielder: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            0
+                            <span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Defender: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            0
+                            <span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Goal-Keeper: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            0
+                            <span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 px-5 text-xl font-semibold text-white flex flex-row justify-between">
+                        <p>Coach: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            0
+                            <span> €</span>
+                        </p>
+                    </div>
+                    <div class="mt-14 text-xl items-center gap-6 font-semibold text-white flex flex-col ">
+                        <p>Total Spent: </p>
+                        <p
+                            class="border-2 border-gray-300 rounded-md w-4/12 text-right hover:border-white hover:bg-cyan-500 hover:text-black">
+                            <span id="total-id">0</span>
+                            <span> €</span>
+                        </p>
+                    </div>
+                </div>
             </div>
             <!-- player dashboard ends -->
         </div>
@@ -181,6 +271,8 @@
                 Reserved </p>
         </div>
     </footer>
+    <script src=".//js/function.js"></script>
+    <script src=".//js/index.js"></script>
 </body>
 
 </html>
