@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href=".//media/images/football.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b6d9270fd8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.43.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -33,18 +34,16 @@
                     <img src=".//media/icon/wave.jpg" class="w-full h-9" alt="">
                 </div>
                 <div class=" mx-auto">
-                    <p class="text-white font-normal text-base max-[768px]:text-xs">Choose from the Bestest within given
-                        Budget and build
-                        your
-                        Dream Team
-                        where You can buy maximum <b>3</b>
-                        Forward, <b>4</b> Midfielder, <b>5</b> Defender, <b>1</b> Goal Keeper & <b>1</b> Manager</p>
+                    <label for="my-modal-5"
+                        class="btn bg-black font-semibold text-xl hover:bg-cyan-600 hover:text-black">->
+                        Rule
+                        Book <- </label>
                 </div>
             </div>
         </div>
     </header>
     <div
-        class="border-2 border-white text-center bg-black text-cyan-300 font-semibold text-3xl text-white w-52 mx-auto my-10 rounded-lg">
+        class="border-2 border-white text-center bg-black text-cyan-300 font-semibold text-3xl text-white w-52 mx-auto my-32 rounded-lg">
         <p>Forward Pool</p>
     </div>
     <section class="card mb-32 px-10">
@@ -208,7 +207,7 @@
                         <p class="text-gray-500 mt-2"><span>31</span> Goals ||
                             <span>36</span> Assist
                         </p>
-                        <p class="text-gray-500">Position: <span class="text-white" id="price-id10">LW</span></p>
+                        <p class="text-gray-500">Position: <span class="text-white" id="position-id10">LW</span></p>
                         <div class="text-center my-2 w-9/12 mx-auto">
                             <button id="btn10" onclick="selectionBoard(10)"
                                 class="py-3 w-full text-black font-normal text-2xl border-2 border-black hover:border-2 hover:border-white bg-gradient-to-bl from-red-500 hover:text-cyan-300 hover:bg-gradient-to-bl hover:from-black hover:to-black to-orange-300 rounded-lg">Hire-
@@ -343,6 +342,20 @@
     </footer>
     <script src=".//js/function.js"></script>
     <script src=".//js/index.js"></script>
+    <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+    <div class="modal bg-black">
+        <div class="modal-box w-4/12 max-w-5xl">
+            <h3 class="font-bold text-lg">Choose from the Bestest</h3>
+            <p class="py-4">Build your Dream Team within given Budget, where You can buy maximum <b>3</b> Forward,
+                <b>4</b> Midfielder,
+                <b>5</b> Defender, <b>1</b> Goal Keeper & <b>1</b> Manager</h3>
+            </p>
+            <div class="modal-action">
+                <label for="my-modal-5" class="btn bg-black text-white hover:text-black hover:bg-cyan-500">Let's
+                    Go!</label>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
